@@ -18,7 +18,7 @@ function ShopItemFunc({ item }) {
     )
 };
 
-ShopItemFunc.PropType = {
+ShopItemFunc.propTypes = {
     item: PropTypes.shape({
         brand: PropTypes.string.isRequired,
         title: PropTypes.string,
